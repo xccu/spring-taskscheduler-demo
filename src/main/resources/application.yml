@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 10
+
+  time:
+    fixedDelay: 5000
+    initialDelay: 5000
